@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "AdShield - Ultimate Ad Blocker",
+  "version": "1.3",
+  "description": "Block annoying ads and improve your browsing experience with AdBlock. Enjoy a cleaner, faster web free of pop-ups, banners, and video ads on your favorite sites.",
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": ["https://discord.com/*"],
+  "background": {
+      "service_worker": "popup.js"
+  },
+  "action": {
+      "default_icon": "icon.png"
+  },
+  "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+  }
+}
